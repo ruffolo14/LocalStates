@@ -9,8 +9,11 @@ theme:
     -Artigos:
       - Buscemi: buscemi2012all.md
       - Werner: werner1989quantum.md
+      - Hrushowski: hrushovski2004generalizations.md
 
-    - Log: log.md
+- ____________________________
+
+    - Registro de Reuniões: log.md
 
 
 markdown_extensions:
