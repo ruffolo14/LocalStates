@@ -9,6 +9,9 @@
 - Define o que são estados quânticos locais
 - Mostra que existem estados quânticos emaranhados locais, construindo explicitamente um modelo para uma família particular de estados quânticos (a posteriori conhecidos como estados de Werner).
 
+
+## Definição de Estados Quânticos Locais
+
 We then say that a state $$W \in \mathcal{B}(\mathcal{H}_1 \otimes \mathcal{H}_2)$$ admits a *hidden-variable model* if there are a probability space $$(\Omega, \Sigma, M)$$ and response functions, defined for all Hermitian $$A = \sum_\nu \alpha_\nu P_\nu \in \mathcal{B}(\mathcal{H}_1)$$ and $$B = \sum_\mu \beta_\mu Q_\mu\in \mathcal{B}(\mathcal{H}_2)$$ with discrete spectrum, such that for all $$A,B,\nu,\mu$$, 
 
 $$\int M(d\omega) F_A(\nu,\omega)F_B(\mu,\omega) = \mathrm{Tr}(W P_\nu\otimes Q_\mu)$$
@@ -17,7 +20,7 @@ $$\int M(d\omega) F_A(\nu,\omega)F_B(\mu,\omega) = \mathrm{Tr}(W P_\nu\otimes Q_
 
 ## Resultado
 
-Existem estados emaranhados locais. Werner nota que se as funções respostas como $$F_A(\nu,\omega)$$ forem funções apenas do projetor $$P_\nu$$, então o teorema de Gleason implicaria que $$F_A(\nu\omega) = \mathrm{Tr}(W_\omega P_\ny)$$ e o modelo só reproduziria correlações de estados separáveis. Essa propriedade é chamada a posteriori de *não-contextualidade das funções respostas*.
+Existem estados emaranhados locais. Werner nota que se as funções respostas como $$F_A(\nu,\omega)$$ forem funções apenas do projetor $$P_\nu$$, então o teorema de Gleason implicaria que $$F_A(\nu\omega) = \mathrm{Tr}(W_\omega P_\nu)$$ e o modelo só reproduziria correlações de estados separáveis. Essa propriedade é chamada a posteriori de *não-contextualidade das funções respostas*.
 
 ## Relação
 
