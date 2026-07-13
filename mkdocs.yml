@@ -3,6 +3,10 @@ site_name: Extended Local States
 theme:
   name: material
 
+  features:
+    - navigation.tabs
+    - navigation.sections
+
   nav:
     - Home: index.md
 
