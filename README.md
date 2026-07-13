@@ -3,7 +3,7 @@
 ## Artigos
 
 ### F. Buscemi - All Entangled Quantum States are Nonlocal
-Neste artigo @buscemi2012all, Buscemi mostra que, do ponto de vista de Teoria de Recursos, Estados Quânticos são recursos não-locais sob o paradigma de *LOSR*. Ele propõe uma classe de jogos não-locais que podem testemunhar qualquer estado emaranhado.
+Neste artigo, Buscemi mostra que, do ponto de vista de Teoria de Recursos, Estados Quânticos são recursos não-locais sob o paradigma de *LOSR*. Ele propõe uma classe de jogos não-locais que podem testemunhar qualquer estado emaranhado.
 
 ### Masanes et. al. - All Bipartite Entangled States Display Some Hidden Nonlocality
 Mostram que todo estado emaranhado viola CHSH em um certo tipo de cenário de Bell onde um estado auxiliar pode ser adicionado ao estado quântico inicial.
