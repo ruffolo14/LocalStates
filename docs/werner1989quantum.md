@@ -24,4 +24,4 @@ Existem estados emaranhados locais. Werner nota que se as funções respostas co
 
 ## Relação
 
-- A definição de estados locais do Werner inspira a definição de estados local-estendidos. Além disso, a imposição de que as funções respostas precisam depender de todos (ou mais de um) projetor de um teste completo indica um caminho para encontrar situações onde essas funções respostas devem ser quânticas (ou seja, dadas pelas regra de Born para algum operador densidade latente $$W\omega$$.
+- A definição de estados locais do Werner inspira a definição de estados local-estendidos. Além disso, a imposição de que as funções respostas precisam depender de todos (ou mais de um) projetor de um teste completo indica um caminho para encontrar situações onde essas funções respostas devem ser quânticas (ou seja, dadas pelas regra de Born para algum operador densidade latente $W_\omega$.
