@@ -6,12 +6,12 @@ theme:
   nav:
     - Home: index.md
 
+
     - Artigos:
       - Buscemi: buscemi2012all.md
       - Werner: werner1989quantum.md
       - Hrushowski: hrushovski2004generalizations.md
 
-- ____________________________
 
     - Registro de Reuniões: log.md
 
