@@ -6,7 +6,7 @@ theme:
   nav:
     - Home: index.md
 
-    -Artigos:
+    - Artigos:
       - Buscemi: buscemi2012all.md
       - Werner: werner1989quantum.md
       - Hrushowski: hrushovski2004generalizations.md
