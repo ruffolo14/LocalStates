@@ -1,0 +1,7 @@
+site_name: Extended Local States
+
+theme:
+  name: material
+
+  nav:
+    - Buscemi: buscemi2012all.md
