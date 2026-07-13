@@ -2,7 +2,7 @@
 
 ## Referência
 
-Buscemi, F. (2012). All entangled quantum states are nonlocal. Physical review letters, 108(20), 200401.
+[Buscemi, F. (2012). All entangled quantum states are nonlocal. Physical review letters, 108(20), 200401.](https://arxiv.org/abs/1106.6095)
 
 ## Ideia principal
 
