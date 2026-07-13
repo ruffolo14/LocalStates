@@ -4,8 +4,13 @@ theme:
   name: material
 
   nav:
-    - Buscemi: buscemi2012all.md
-    - Werner: werner1989quantum.md
+    - Home: index.md
+
+    -Artigos:
+      - Buscemi: buscemi2012all.md
+      - Werner: werner1989quantum.md
+
+    - Log: log.md
 
 
 markdown_extensions:
