@@ -2,6 +2,8 @@
 
 Esta página reune artigos que possivelmente são relevantes para o projeto. No artigo do [F.Buscemi](buscemi2012all.md), encontramos uma justificativa plausível para todo estado emaranhado manifestar alguma não-localidade. No artigo do [Werner](werner1989quantum.md), encontramos a definição de estados quânticos locais em cenários de Bell tradicionais. [Neste artigo](hrushovski2004generalizations.md), temos uma aparente versão do teorema de Gleason para um conjunto finito de projetores. 
 
+Um registro das reuniões pode ser encontrado em [Log](log.md).
+
 ## Áreas
 
 - [F. Buscemi- All Entangled Quantum States are Nonlocal](buscemi2012all.md)
