@@ -55,17 +55,40 @@ Esse Teorema é muito forte. Não faço ideia e não tenho fôlego intelectual p
 Primeiro, é necessário colocar o Teorema de Gleason em uma forma que conseguimos reconhecer como uma teoria de primeira ordem. [Hrushovski e Pitwosky](hrushovski2004generalizations) fazem isso enunciado o seguinte modelo:
 
 $$
-\forall x, \,\, p(x) \geq 0
+\mathrm{G1:}\,\, \forall x, \,\, p(x) \geq 0
 $$
 
 $$
-\forall x, \,\, p(-x) = p(x)
+\mathrm{G2:}\,\,\forall x, \,\, p(-x) = p(x)
 $$
 
-Para todo tripla ortonormal $x,y,z \in \mathbb{S}^2$, $p(x)+p(y)+p(z)=1$. 
+Para todo tripla ortonormal $\mathrm{G3:}\,\, x,y,z \in \mathbb{S}^2$, $p(x)+p(y)+p(z)=1$. 
 
-Um modelo para esta teoria é justamente a esfera $\mathbb{S}^2$. O que se faz agora é adicionar uma nova sentença ao modelo
+Um modelo para esta teoria é justamente o conjunto de todas as direções possíveis em $\mathbb{R}^3$, ou seja, a esfera $\mathbb{S}^2$. O que se faz agora é adicionar uma nova sentença à teoria:
 
-Existe um estado $p$ tal que $\forall x, \,\, p(x)=0 \lor p(x)=1$.
+F1: Existe uma frame function $p$ tal que $\forall x, \,\, p(x)=0 \lor p(x)=1$.
 
-Como das três primeiras sentenças segue que $p$ deve ser contínua, ao adicionar essa última sentença temos uma contradição. Logo, não existe modelo para esta teoria. A não existência de modelo significa que os elementos do domínio (que neste caso são as direções em $\mathbb{S}^2$) não satisfazem, simultaneamente, as quatro proposições anunciadas. Logo, pela compacidade lógica, deve existir um subconjunto finito de direções violando alguma dessas sentenças. Sabemos, graças a Kochen-Specker, que existem tais conjuntos finitos violando a última sentença.
+Como das três primeiras sentenças G1-G3 segue que $p$ deve ser contínua (esse é um dos reusltados necessários para o teorema de Gleason, que segue de G1-G3 como Hrushovski e Pitowsky mostram no artigo), ao adicionar essa última sentença F1, temos uma contradição. Logo, não existe modelo para esta nova teoria formada por G1-G3 + F1. A não existência de modelo significa que os elementos do domínio (que anteriormente eram as direções em $\mathbb{S}^2$) não satisfazem, simultaneamente, as quatro proposições anunciadas. Logo, pela compacidade lógica, deve existir um subconjunto finito de direções violando esta nova teoria formada por G1-G3+F1, ou seja, violando alguma (ou mais de uma) dessas proposições. Sabemos, graças a Kochen-Specker, que existem tais conjuntos finitos e são os conhecidos "conjuntos de Kochen-Specker", que violam justamente F1.
+
+O Teorema da Compacidade deve ser tomado com certo cuidado aqui. Primeiro, poderiamos pensar que o último axioma viola a condição de ser de primeira ordem, já que contém uma sentença do tipo "existe um estado...". Mas isso não é verdade, pois se fosse, invalidaria o resultado obtido por Hrushovski. O que ocorre é que não se está exatamente quantificando sobre funções, pois $p$ foi adicionado à linguagem, assim como as operações $+,\times$ naturalmente foram assumidas como constituintes da linguagem.
+
+Ou seja, "Existe um estado p$ não é formalmente equivalente à $\exists p$, pois a linguagem possui apenas um símbolo $p$. No próprio artigo, eles mencionam
+
+*Add to this first order theory a function symbol* $p:\mathbb{S}^2 \rightarrow \mathbb{R}$.
+
+A verdade é que o axioma F1 está mal escrito e causa essa ambiguidade. Devemos interpretar $p$ como alguma frame function, que apesar de arbitrária, está fixa como operação adicionada ao modelo. Na realidade, devemos fazer uma distinção entre o símbolo $p$, que é linguístico, de um modelo que satisfaça $p$, que de fato seria uma frame function. 
+
+Um exemplo concreto é o seguinte. Considere a teoria dos grupos abelianos que citei anteriormente. De forma implicita, o símbolo $+$ foi inserido na linguagem, de forma a fazer sentido os axiomas de grupo Abeliano. De maneira concreta, qualquer grupo abeliano satisfaz estes axiomas. Porém, a operação $+$ terá diferentes interpretações, de acordo com cada grupo. Poderíamos então pensar em todos as as interpretações possíveis para o símbolo $+$. Um deles é a adição de números reais, outro é a multiplicação de matrizes diagonais, etc. Poderiamos então formular uma frase do tipo "Existe uma operação +...", ao espírito do axioma F1, sem querer dizer $\exists +$, mas sim "Existe uma interpretação para +...". Essa seria uma sentença de primeira ordem.
+
+Reformulando o axioma F1 sob essas considerações, ele fica melhor enunciado assim:
+
+F1: Existe uma interpretação para a frame function $p$ tal que $\forall x, \,\, p(x)=0 \lor p(x)=1.$
+
+Essa é a prova não-construtiva de que conjuntos KS devem existir, a partir do teorema de Gleason.
+
+
+
+
+
+
+
